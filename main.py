@@ -22,7 +22,7 @@ class Data_analysis:
         :param data: 学生的姓名、学号 (考虑到学生登入，所以从这里单独获取学生的姓名和学号, 学生登入是会同时获取其成绩信息)
         """
         self.status = status
-        if self.status:  # 根据登入身份不用，准备学生数据
+        if self.status:  # 根据登入身份不同，准备学生数据
             self.stuNum = ["全部"] + list(data[0])
             self.stuName = ["全部"] + list(data[1])
         else:
@@ -329,7 +329,7 @@ class Data_analysis:
             [
                  [math_ax1, math_bar[0], math_bar[1]],
                  [engl_ax2, engl_bar[0], engl_bar[1]],
-                 [pyth_ax3, pyth_bar[0], engl_bar[1]],
+                 [pyth_ax3, pyth_bar[0], pyth_bar[1]],
                  [aver_ax4, subj_ave[3], subj_ave[0:3]]
             ]
         ]
