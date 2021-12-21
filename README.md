@@ -4,34 +4,20 @@
 Python学生信息管理系统。学生教师端分离，支持数据的增删查改、数据分析与统计。
 
 #### 软件架构
-软件架构说明
+Python3.9版本
+Python-Tkinter库开发的图形界面
+Python-Pandas库数据处理
+Python-matplotlib库数据分析与展示
+Python-Pickle库登录信息序列化处理（Pickle版本：Python3.9-5）低于该版本的Python，可能会出现无法读取当前版本的pickle文件。
 
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+#### 文件目录
+|- work_data
+	|-- .udsc格式文件 本质为csv文件转型，已登记完成的成绩文件
+|- user_data
+	|-- .udcl格式文件 pickle加密文件，各班最新发布成绩文件
+	|-- .udpk格式文件 pickle加密文件，student和teacher分别是学生、教师的账号信息
+					 其中包含了账号、密码、所在班级信息
+|- class_data
+	|-- .csv格式文件 班级成员信息
+|- img
+	|-- welcome.png 登录界面背景图
