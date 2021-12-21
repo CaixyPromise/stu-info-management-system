@@ -10,6 +10,12 @@ Python-Pandas库数据处理
 Python-matplotlib库数据分析与展示
 Python-Pickle库登录信息序列化处理（Pickle版本：Python3.9-5）低于该版本的Python，可能会出现无法读取当前版本的pickle文件。
 
+#### 软件功能
+- 学生、教师登录
+- 成绩分析与统计
+- 成绩登记、发布与导出
+- 添加班级信息与管理
+
 #### 文件目录
 -  work_data
 - ​	.udsc格式文件 本质为csv文件转型，已登记完成的成绩文件
