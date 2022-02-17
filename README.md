@@ -16,6 +16,10 @@ Python-Pickle库登录信息序列化处理（Pickle版本：Python3.9-5）低�
 - 成绩登记、发布与导出
 - 添加班级信息与管理
 
+#### 默认测试账号
+初始默认管理员账号密码为admin,admin
+可以使用pickle或pandas.pickle模块的读user_data文件下的udpk文件获取详细账号信息，student为学生，teacher为老师
+
 #### 文件目录
 -  work_data
 - ​	.udsc格式文件 本质为csv文件转型，已登记完成的成绩文件
