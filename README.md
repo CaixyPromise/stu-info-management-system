@@ -8,7 +8,7 @@ Python3.9版本
 Python-Tkinter库开发的图形界面
 Python-Pandas库数据处理
 Python-matplotlib库数据分析与展示
-Python-Pickle库登录信息序列化处理（Pickle版本：Python3.9-5）低于该版本的Python，可能会出现无法读取当前版本的pickle文件。
+Python-Pickle库登录信息序列化处理（Pickle版本：Python3.9-5） **低于该版本的Python，可能会出现无法读取当前版本的pickle文件** 。
 
 #### 软件功能
 - 学生、教师登录
@@ -17,7 +17,7 @@ Python-Pickle库登录信息序列化处理（Pickle版本：Python3.9-5）低�
 - 添加班级信息与管理
 
 #### 默认测试账号
-初始默认管理员账号密码为admin,admin
+ **初始默认管理员账号密码为admin,admin** 
 可以使用pickle或pandas.pickle模块的读user_data文件下的udpk文件获取详细账号信息，student为学生，teacher为老师
 
 #### 文件目录
